@@ -23,7 +23,7 @@ button{
   display: block;
   text-align: right;
 }
-.header-block img {
+.header-block .header-block__image {
   width: 100%;
 }
 .header-block .header-block__more{
@@ -117,12 +117,12 @@ button{
 .list-item > input[type="text"] {
   width: 226px;
 }
-.list-item__btn_delete img {
+.list-item__btn_delete .list-item__image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.list-item__btn_delete img:hover {
+.list-item__btn_delete .list-item__image:hover {
   transform: rotateZ(0);
 }
 
@@ -146,7 +146,8 @@ button{
   display: none;
 }
 
-h3,
+.todo-app__title,
+.h3-title,
 .top-sect__label[for="new-task"] {
   color: #333;
   font-weight: 700;
